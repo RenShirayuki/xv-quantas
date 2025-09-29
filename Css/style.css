@@ -1,11 +1,12 @@
 body {
-  background: #f0f0f0;
+  background: #121212; /* background gelap */
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
   font-family: Arial, sans-serif;
+  color: #e0e0e0;
 }
 
 .flipbook {
@@ -13,8 +14,8 @@ body {
 }
 
 .page {
-  background: white;
-  border: 1px solid #ddd;
+  background: #1e1e1e;       /* halaman gelap */
+  border: 1px solid #333;    /* border lebih redup */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,4 +24,18 @@ body {
 .page-content {
   padding: 20px;
   text-align: center;
+  color: #e0e0e0; /* teks terang */
+}
+
+h2 {
+  color: #ffffff; /* judul putih */
+}
+
+a {
+  color: #bb86fc; /* ungu neon */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
