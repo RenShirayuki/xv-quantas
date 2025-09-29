@@ -5,11 +5,13 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
+  font-family: Arial, sans-serif;
 }
 
 .flipbook {
   margin: auto;
 }
+
 .page {
   background: white;
   border: 1px solid #ddd;
@@ -17,6 +19,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .page-content {
   padding: 20px;
   text-align: center;
