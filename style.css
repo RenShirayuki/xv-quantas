@@ -1,0 +1,23 @@
+body {
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.flipbook {
+  margin: auto;
+}
+.page {
+  background: white;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-content {
+  padding: 20px;
+  text-align: center;
+}
